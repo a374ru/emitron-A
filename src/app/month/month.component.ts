@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { SvrcService } from 'src/app/svrc/svrc.service';
+import { SvrcService } from '../svrc/svrc.service';
 
 @Component({
   selector: 'app-month',
-  templateUrl: './month.component.html',
+  templateUrl: 'month.component.html',
 })
 export class MonthComponent implements OnInit {
   constructor(public svrc: SvrcService) { }
