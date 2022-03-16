@@ -1,10 +1,31 @@
 import { Component } from '@angular/core';
+import { SvrcService } from './svrc/svrc.service';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'emitron-A';
+  title = 'Сервис и передача данных\n в компонентах Angular с роутингом';
+
+  month?: string;
+
+  constructor(public svrc: SvrcService) {
+
+    svrc.emitronAdress.subscribe(param => {
+
+      this.month = param as string
+
+
+    })
+
+
+  }
+
+
+
+
+
+
 }
+

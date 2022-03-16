@@ -1,1 +1,45 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  align-self: center;
+  background-color: rgb(255, 243, 233);
+  grid-template-columns: minmax(222px, 450px);
+  margin-top: 3em;
+}
+
+button {
+  width: 150px;
+  text-align: center;
+}
+
+div {
+  animation: show 700ms;
+  height: 100%;
+  margin: auto;
+  grid-template: auto;
+  border-top: 22px solid rgb(255, 255, 255);
+  animation: show 1s;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+h1.month {
+  color: rgb(108, 0, 0);
+}
+
+h2 {
+  color: #573a3a;
+}
+
+nav {
+  font-size: 2em;
+}
