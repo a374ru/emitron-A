@@ -1,5 +1,5 @@
 <main>
-  <h1>App-component</h1>
+  <h1>App-Сomponent</h1>
   <h2>{{ title }}</h2>
   <nav>
     <button (click)="month = 'кнопка ниже'" routerLinkActive="active">
@@ -9,6 +9,8 @@
   <h2>Текущий месяц сейчас:</h2>
 
   <hr />
-  <!-- здесь появится другой компонент ! -->
+  <!-- ---------------------- -->
   <router-outlet></router-outlet>
+  <!-- здесь появится компонент <app-month></app-month> -->
+
 </main>
