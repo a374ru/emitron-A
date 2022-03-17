@@ -1,16 +1,16 @@
-<main>
-  <h1>App-Сomponent</h1>
-  <h2>{{ title }}</h2>
-  <nav>
-    <button (click)="month = 'кнопка ниже'" routerLinkActive="active">
+<div class="main">
+
+  <h1 class="n">{{ title }}Сервис и передача данных<br /> в компонентах с роутингом.</h1>
+  <div class="a">
+    <h2>App-Сomponent</h2>
+    <button (click)="month = '404'" routerLinkActive="active">
       {{ month || "сбросить" }}
     </button>
-  </nav>
-  <h2>Текущий месяц сейчас:</h2>
-
-  <hr />
+    <p>Текущий месяц:</p>
+  </div>
+  <div class="b">
+  </div>
   <!-- ---------------------- -->
-  <router-outlet></router-outlet>
+  <router-outlet class="d"></router-outlet>
   <!-- здесь появится компонент <app-month></app-month> -->
-
-</main>
+</div>

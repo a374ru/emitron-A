@@ -18,12 +18,7 @@ export class MonthComponent implements OnInit {
    * Инициализация сервиса по вычислению месяцев по индексу.
    * @param svrc 
    */
-  constructor(public svrc: SvrcService) {
-
-
-    this.svrc.emitronMethod(this.numberYear);
-
-  }
+  constructor(public svrc: SvrcService) { }
 
   ngOnInit(): void { }
 

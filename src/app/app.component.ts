@@ -15,7 +15,7 @@ import { SvrcService } from './svrc/svrc.service';
  */
 export class AppComponent {
 
-  title = 'Сервис и передача данных в компонентах Angular с роутингом.';
+  title = ' Angular. ';
 
   month?: string;
 
