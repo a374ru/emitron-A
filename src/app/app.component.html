@@ -3,7 +3,7 @@
   <h2>{{ title }}</h2>
   <nav>
     <button (click)="month = 'кнопка ниже'" routerLinkActive="active">
-      <h1 class="month">{{ month || "сбросить" }}</h1>
+      {{ month || "сбросить" }}
     </button>
   </nav>
   <h2>Текущий месяц сейчас:</h2>
