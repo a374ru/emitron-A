@@ -66,16 +66,24 @@ h2 {
   color: blueviolet
 }
 
-@media(max-width: 500px) {
+@media(max-width: 400px) {
+
+  h1 {
+    font-size: 1.6em;
+  }
+
   .main {
+    text-align: center;
+    margin: 0px 10px;
     grid-template-rows: auto auto auto auto;
-    grid-template-columns: 0.1fr .9fr .1fr;
+    grid-template-columns: 1fr;
+    gap: 0;
     grid-template-areas:
-      ". n n"
-      ". a ."
-      ". b ."
-      ". c ."
-      ". . ."
+      " n "
+      " a "
+      " b "
+      " c "
+      ". "
     ;
   }
 }
