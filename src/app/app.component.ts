@@ -15,7 +15,7 @@ import { SvrcService } from './svrc/svrc.service';
  */
 export class AppComponent {
 
-  title = ' Angular. ';
+  title = ' Angular ';
 
   month?: string;
 

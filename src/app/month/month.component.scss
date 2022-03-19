@@ -1,0 +1,17 @@
+
+:host{
+
+  border-left: 4px solid #dac;
+  padding-left: 2rem;
+  
+}
+
+@media(max-width: 425px){
+  
+  :host-context(h1){
+    color: #cad;
+    border: 2px solid #dac;
+    padding-left: 0;
+  }
+
+}

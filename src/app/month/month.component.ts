@@ -4,6 +4,7 @@ import { SvrcService } from '../svrc/svrc.service';
 @Component({
   selector: 'app-month',
   templateUrl: 'month.component.html',
+  styleUrls:['./month.component.scss']
 })
 
 /**
