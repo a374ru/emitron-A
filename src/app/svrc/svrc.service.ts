@@ -18,7 +18,8 @@ export class SvrcService {
    * Определяем экземпляр-наблюдатель.
    * Этот объект следит за действиями и оповещает подписчиков.
    */
-  emitron = new Subject()
+  emitron = new Subject();
+  // a = this.emitron.subscribe(value => console.log("foo"))
 
   /**
    * Наблюдатель за объектом (рабочей областью экземпляра).
